@@ -1,0 +1,90 @@
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Roboto', sans-serif;
+}
+
+.dark-background {
+	background-color: #1F2937;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10vw 0 10vw;
+}
+
+.navbar-links {
+	display: flex;
+}
+
+.nav-link {
+	font-size: 18px;
+	margin: 0px 8px 0px 8px;
+}
+
+.navbar-logo {
+	font-size: 24px;
+}
+
+.description-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 150px 10vw 150px 10vw;
+}
+
+.description-left {
+	margin-right: 100px;
+	max-width: 600px;
+}
+
+.description-title {
+	font-size: 48px;
+	font-weight: 900;
+}
+
+.description-text {
+	font-size: 18px;
+}
+
+.description-right {
+	background-color: #8d8d8d;
+	color: #F9FAF8;
+	width: 400px;
+	height: 240px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-text {
+	color: #F9FAF8;
+}
+
+.sub-text {
+	color: #e5e7eb;
+}
+
+.button {
+	color: #F9FAF8;
+	background-color: #3882F6;
+	width: 90px;
+	height: 30px;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+}
+
+.call-to-action-inner {
+	background-color: #3882F6;
+}
+
+.call-to-action-inner .button {
+	border-style: solid;
+	border-width: 2px;
+  border-color: #F9FAF8;
+}

@@ -1,1 +1,1 @@
-Landing Page - TOP
+# A basic landing page for a business created while following The Odin Project.

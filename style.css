@@ -28,28 +28,28 @@ body {
 	font-size: 24px;
 }
 
-.description-body {
+.hero-body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 150px 10vw 150px 10vw;
 }
 
-.description-left {
+.hero-text {
 	margin-right: 100px;
 	max-width: 600px;
 }
 
-.description-title {
+.hero-title {
 	font-size: 48px;
 	font-weight: 900;
 }
 
-.description-text {
+.hero-text {
 	font-size: 18px;
 }
 
-.description-right {
+.hero-image {
 	background-color: #8d8d8d;
 	color: #F9FAF8;
 	width: 400px;
@@ -70,7 +70,8 @@ body {
 .button {
 	color: #F9FAF8;
 	background-color: #3882F6;
-	width: 90px;
+	width: fit-content;
+	padding: 0px 12px 0px 12px;
 	height: 30px;
 	font-weight: 700;
 	display: flex;

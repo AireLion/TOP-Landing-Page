@@ -1,5 +1,6 @@
 body {
 	display: flex;
+	margin: 0;
 	flex-direction: column;
 	font-family: 'Roboto', sans-serif;
 }
@@ -47,7 +48,6 @@ body {
 }
 
 .hero-image {
-	background-color: #8d8d8d;
 	color: #F9FAF8;
 	width: 400px;
 	height: 240px;
@@ -61,7 +61,7 @@ body {
 }
 
 .sub-text {
-	color: #e5e7eb;
+	color: #E5E7EB;
 }
 
 .button {
@@ -77,21 +77,16 @@ body {
 	border-radius: 8px;
 }
 
-.call-to-action-inner {
-	background-color: #3882F6;
-}
-
-.call-to-action-inner .button {
-	border-style: solid;
-	border-width: 2px;
-  border-color: #F9FAF8;
-}
-
 .feature-showcase {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 60px 0px 80px 0px;
+	justify-content: center;
+	margin: 40px 0px 0px 0px;
+}
+
+.feature-title {
+	margin-bottom: 40px;
 }
 
 .feature-boxes {
@@ -114,31 +109,79 @@ body {
 	border-width: 2px;
 	border-color: black;
 	border-radius: 10px;
-	width: 100%;
+	width: 180px;
 	height: 180px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-bottom: 12px;
 }
 
 .feature-description {
 	width: 100%;
 	text-align: center;
+	margin-top: 12px;
 }
 
 .quote {
-	background-color: #e5e7eb;
+	background-color: #E5E7EB;
 	margin: 40px 0px 40px 0px;
+	padding: 20px 40px 20px 40px;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+}
+
+.quote-container {
+	max-width: 800px;
 }
 
 .quote-text {
 	font-size: 36px;
 	color: #1F2937;
+	width: 100%;
 }
 
 .quote-name {
-	
+	width: 100%;
+	text-align: right;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 10vw 0 10vw;
+	height: 40px;
+	color: #F9FAF8;
+}
+
+.call-to-action {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0px 50px 0px;
+}
+
+.call-to-action-container {
+	background-color: #3882F6;
+	border-radius: 10px;
+	padding: 20px 40px 20px 40px;
+	width: 1000px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.call-to-action-title {
+	font-weight: 700;
+	font-size: 32px;
+	color: #F9FAF8;
+}
+
+.call-to-action-text {
+	color: #E5E7EB;
+}
+
+.call-to-action-container .button {
+	border-style: solid;
+	border-width: 2px;
+  border-color: #F9FAF8;
 }
